@@ -1,0 +1,4 @@
+core\pages\LandingPage.class
+core\tests\BaseClass.class
+core\Test.class
+core\tests\DemoTest.class

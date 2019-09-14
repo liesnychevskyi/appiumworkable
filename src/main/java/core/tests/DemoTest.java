@@ -5,10 +5,15 @@ import org.openqa.selenium.Keys;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
-import java.net.MalformedURLException;
-
 public class DemoTest extends BaseClass // Every test class extends from BaseTest
 {
+    //GIT command:
+    //0). git init - new local repository creation (empty)
+    // git remote add origin "address of git repository"
+    //1). git status
+    //2). git add
+    //3). git commit
+    //4). git push
     @Test(priority = 1)
     public void googleTest()
     {
