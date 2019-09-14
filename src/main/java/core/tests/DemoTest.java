@@ -11,9 +11,12 @@ public class DemoTest extends BaseClass // Every test class extends from BaseTes
     //0). git init - new local repository creation (empty)
     // git remote add origin "address of git repository"
     //1). git status
-    //2). git add
-    //3). git commit
-    //4). git push
+    //2). git add -A  - adding all the files to stage area
+    // git config --global user.name "name"  - just once for identify the user name
+    // git config --global user.email "mail" - just once for identify the user mail
+    //3). git commit -m "some comment about commit"
+    //4). git push -u origin master   - push to remote repository
+    //5). git pull origin master   - pulling from the repository
     @Test(priority = 1)
     public void googleTest()
     {
